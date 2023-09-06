@@ -1,6 +1,6 @@
 import { Shape } from "./shape"
 
-function rectangle(width: number, height: number): Shape {
+function newRectangle(width: number, height: number): Shape {
     return {
         computeArea: function (): number {
             return width * height
@@ -8,4 +8,4 @@ function rectangle(width: number, height: number): Shape {
     }
 }
 
-export { rectangle }
+export { newRectangle }
